@@ -1,4 +1,4 @@
-#XBian 1.0 Alpha 3 Changelog
+#XBian 1.0 Alpha 4 Changelog
 ==================================
 XBian 1.0 Alpha 4 mostly contains bugfixes.
 We've also added RC1 of XBMC v12 - Frodo. 
