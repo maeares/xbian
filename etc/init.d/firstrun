@@ -47,7 +47,7 @@ echo '
 888  T88b  888        Y88b  d88P   888    d88P         888   888   Y8888 Y88b  d88P
 888   T88b 8888888888  "Y8888P"  8888888 d8888888888 8888888 888    Y888  "Y8888P88';
 	if [ "$(/usr/local/sbin/xbian-config resizesd check)" == 1 ]; then
-		/usr/local/sbin/xbian-config resizesd resize
+		/usr/local/sbin/xbian-config resizesd resize &>/dev/null
 	fi
 	update-rc.d firstrun remove >/dev/null
 	rm /etc/init.d/firstrun >/dev/null
