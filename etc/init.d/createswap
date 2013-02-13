@@ -90,7 +90,7 @@ d88P     888 8888888P"  8888888P"     "Y8888P"  888P     Y888 d88P     888 888';
 	update-rc.d createswap remove >/dev/null
 	rm /etc/init.d/createswap >/dev/null
 	rm -r /usr/local/share/xbian-config/scripts/
-	/usr/bin/splash --msgtxt='setup completed...'
+	/usr/bin/splash --infinitebar --msgtxt='setup completed...'
 	sleep 1;
         case "$?" in
                 0|1) [ "$VERBOSE" != no ] && log_end_msg 0 ;;
