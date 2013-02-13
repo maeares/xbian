@@ -89,6 +89,7 @@ d88P     888 8888888P"  8888888P"     "Y8888P"  888P     Y888 d88P     888 888';
 	echo -e '/var/swapfile\t\t\t\tswap\t\tswap\tdefaults\t\t\t0\t0' >> /etc/fstab 
 	update-rc.d createswap remove >/dev/null
 	rm /etc/init.d/createswap >/dev/null
+	rm -r /usr/local/share/xbian-config/scripts/
 	/usr/bin/splash --msgtxt='setup completed...'
 	sleep 1;
         case "$?" in
